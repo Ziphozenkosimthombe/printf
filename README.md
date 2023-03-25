@@ -1,2 +1,1 @@
-#0x11. C - printf
-this project it for two collaborators
+#0x11. C - printf 'Team Project'
