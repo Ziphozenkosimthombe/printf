@@ -35,6 +35,7 @@ int print_unsigned(va_list types, char buffer[],
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
 
+/************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 
 /**
  * print_octal - Prints an unsigned number in octal notation
@@ -77,6 +78,7 @@ int print_octal(va_list types, char buffer[],
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
 
+/************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 
 /**
  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
@@ -95,6 +97,7 @@ int print_hexadecimal(va_list types, char buffer[],
 		flags, 'x', width, precision, size));
 }
 
+/************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 
 /**
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
@@ -113,6 +116,7 @@ int print_hexa_upper(va_list types, char buffer[],
 		flags, 'X', width, precision, size));
 }
 
+/************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 
 /**
  * print_hexa - Prints a hexadecimal number in lower or upper
